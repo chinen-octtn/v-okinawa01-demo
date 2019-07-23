@@ -16,9 +16,11 @@ Vue.js公式のガイドを参照
 https://jp.vuejs.org/v2/guide/
 
 CDNで、
+
 `<script src="https://cdn.jsdelivr.net/npm/vue"></script>`
 
 もしくはローカルにダウンロードして、
+
 `<script src="js/vue.js"></script>`
 
 
