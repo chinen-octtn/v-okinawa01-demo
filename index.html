@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vue.js - demo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="iii">
+
+
+
+
+
+  </div>
+  <div id="app">
+    <h1>DEMO</h1>
+    <p>出力：{{ message }}</p>
+
+    <p>このinputタグに入力した文字は上のテキストに連動します。</p>
+    <input type="text" v-model="message">
+
+    <p v-if="message === ''">テキスト未入力です。</p>
+    <p v-else>テキスト入力中</p>
+
+    <ul class="list">
+      <li v-for="item in listData">{{ item }}</li>
+    </ul>
+
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
