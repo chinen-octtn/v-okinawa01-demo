@@ -1,6 +1,14 @@
 # v-okinawa Vue.js/Nuxt.js meetup #1 初心者歓迎
 
+イベントURL
+
+https://v-okinawa.connpass.com/event/137113/
+
 ## Vue.js初級編
+
+資料URL
+
+https://speakerdeck.com/chinen/v-okinawa-meetup-number-1
 
 ### HTMLにVue.jsを読み込む
 
